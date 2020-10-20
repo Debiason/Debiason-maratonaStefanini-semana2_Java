@@ -1,6 +1,6 @@
 package br.com.maratona.dev;
 
-public interface ContaPrivate {
+public interface ContaPrivate extends Emprestimo{
 
 	void saqueExtra(Float taxa);
 	
